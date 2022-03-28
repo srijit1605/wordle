@@ -1,0 +1,28 @@
+.keyboard {
+    margin-top: 10px;
+    width: 60%;
+    height: 185px;
+    margin-left: 20%;
+    border: 2px solid black;
+    border-radius: 15px;;
+    background-color: #00000099;
+}
+
+.qwerty, .asdfgh, .zxcvbn {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    float:left;
+}
+
+.qwerty {
+    padding-top: 10px;
+}
+
+.zxcvbn {
+    padding-bottom: 10px;
+}
+
+.disabled {
+    background-color: brown;
+}

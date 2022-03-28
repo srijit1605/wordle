@@ -1,0 +1,9 @@
+.gameover {
+    width: 40%;
+    margin-left: 30%;
+    background-color: #daa52088;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.616);
+}
