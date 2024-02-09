@@ -105,6 +105,7 @@ function App() {
         <Wordgrid />
         {gameOver.gameOver ? <GameOver /> : <Keyboard />}
       </AppContext.Provider>
+      <div style={{position: 'absolute', bottom: '0', right: '10px'}}>This site was made by <a href={'https://srijit.vercel.app/'}>Srijit</a></div>
     </div>
   );
 }
